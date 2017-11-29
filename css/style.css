@@ -1,0 +1,105 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: .14rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "楷体";
+  text-size-adjust: 100%; }
+
+ul, li {
+  list-style: none; }
+
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 625%; }
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none; }
+
+input, button {
+  outline: 0; }
+
+button {
+  cursor: pointer; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ccc; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #393A3E; }
+  header a {
+    color: #fff;
+    font-size: .18rem; }
+    header a:nth-child(1), header a:nth-child(3) {
+      flex: 1;
+      text-align: center; }
+    header a:nth-child(2) {
+      flex: 8; }
+
+section {
+  flex: 1; }
+  section .mark {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    section .mark .box {
+      width: 90%;
+      height: 80%;
+      background: #fff;
+      border-radius: .1rem; }
+      section .mark .box .top {
+        width: 100%;
+        height: 1.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        section .mark .box .top img {
+          width: 50%;
+          height: auto; }
+        section .mark .box .top h4 {
+          font-size: .2rem;
+          line-height: 2; }
+      section .mark .box p {
+        width: 90%;
+        height: 0.5rem;
+        margin: 0 auto;
+        line-height: .5rem;
+        border-bottom: 1px solid #000; }
+        section .mark .box p img {
+          width: 0.2rem;
+          height: auto; }
+        section .mark .box p input {
+          width: 80%;
+          height: 0.35rem;
+          border: 0; }
+        section .mark .box p button {
+          width: 100%;
+          height: 0.5rem;
+          background: #31B977;
+          margin-top: .3rem;
+          border: 0;
+          border-radius: .1rem;
+          color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
